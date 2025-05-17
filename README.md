@@ -1,6 +1,6 @@
 # SQL-Python Project
 
-## 📌 Overview
+## Overview
 This project integrates SQL with Python to perform data analysis, database operations, and automation tasks. It demonstrates how Python can interact with databases using SQL queries to fetch, manipulate, and visualize data efficiently.
 
 # Dataset Description: 
@@ -10,26 +10,26 @@ This Dataset on Kaggle includes sales data for various products sold by an e-com
 Our data can be found on `noshowappointments-kagglev2-may-2016.csv` file provided on this repository, downloaded from https://www.kaggle.com/datasets/devarajv88/target-dataset?select=products.csv [Kaggle]
 
 
-## 🔧 Features
+##  Features
 - Connect Python with SQL databases (SQLite, MySQL, PostgreSQL, etc.)
 - Perform CRUD (Create, Read, Update, Delete) operations using Python
 - Automate SQL queries with Python scripts
 - Data visualization and reporting using Pandas & Matplotlib
 - Error handling and performance optimization
 
-## 📂 Project Structure
+##  Project Structure
 ```
-📁 Sql-python_project/
-├── 📄 main.py            # Main script to run the project
-├── 📄 database.sql       # SQL file with database schema
-├── 📄 config.py          # Configuration file for database connection
-├── 📂 data/              # Sample datasets (if applicable)
-├── 📂 notebooks/         # Jupyter Notebooks for analysis (if applicable)
-├── 📂 scripts/           # SQL & Python scripts
-└── 📄 README.md          # Project documentation
+ Sql-python_project/
+ main.py            # Main script to run the project
+ database.sql       # SQL file with database schema
+ config.py          # Configuration file for database connection
+ data/              # Sample datasets (if applicable)
+ notebooks/         # Jupyter Notebooks for analysis (if applicable)
+ scripts/           # SQL & Python scripts
+ README.md          # Project documentation
 ```
 
-## 🚀 Installation & Setup
+## Installation & Setup
 1. **Clone the repository**:
    ```sh
    git clone https://github.com/Somakshi1/Sql-python_project.git
@@ -53,13 +53,13 @@ Our data can be found on `noshowappointments-kagglev2-may-2016.csv` file provide
    python main.py
    ```
 
-## 🛠 Technologies Used
-- **Python** 🐍
-- **SQL (SQLite/MySQL/PostgreSQL)** 🗄️
-- **Pandas, Matplotlib, Seaborn** 📊
-- **Flask/FastAPI (if applicable for API integration)** 🚀
+##  Technologies Used
+- **Python** 
+- **SQL (SQLite/MySQL/PostgreSQL)** 🗄
+- **Pandas, Matplotlib, Seaborn** 
+- **Flask/FastAPI (if applicable for API integration)** 
 
-## 📖 Usage
+##  Usage
 - Modify `database.sql` to define your database schema.
 - Use `main.py` to execute SQL queries via Python.
 - Add custom scripts inside the `scripts/` folder for automation.
